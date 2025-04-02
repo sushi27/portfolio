@@ -10,7 +10,7 @@ const Navbar = () => {
       className="p-6 fixed w-full z-50"
     >
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+        <Link to="/" className="select-none text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
           My Portfolio
         </Link>
         
@@ -21,7 +21,7 @@ const Navbar = () => {
               to={path === '/' ? '/' : path}
               className="relative group"
             >
-              <span className="text-white group-hover:text-purple-300 transition-colors">
+              <span className="text-white group-hover:text-purple-300 transition-colors select-none ">
                 {path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}
               </span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-400 transition-all group-hover:w-full"></span>
