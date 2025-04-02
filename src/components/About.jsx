@@ -21,9 +21,8 @@ const About = () => {
             >
               <h3 className="text-2xl font-semibold mb-4 text-purple-300">Who I Am</h3>
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience building web applications. 
-                I specialize in JavaScript technologies including React, Node.js, and modern frontend frameworks.
-                My approach combines technical expertise with creative problem-solving to deliver exceptional user experiences.
+              I’m a Senior Software Engineer with over 3 years of experience specializing in backend development, microservices, and scalable system architecture.
+              My expertise lies in Java, Spring Boot, Node.js, and distributed systems, where I focus on building high-performance, fault-tolerant applications that scale effortlessly.
               </p>
             </motion.div>
             
@@ -33,10 +32,9 @@ const About = () => {
             >
               <h3 className="text-2xl font-semibold mb-4 text-purple-300">My Journey</h3>
               <p className="text-gray-300 leading-relaxed">
-                Starting as a self-taught developer, I've worked with startups and established companies to build scalable,
-                performant applications. I'm constantly learning new technologies and methodologies to stay at the forefront
-                of web development. When I'm not coding, you can find me contributing to open-source projects or mentoring
-                aspiring developers.
+              Starting as a problem-solving enthusiast, I have worked with fast-paced teams to design and implement scalable microservices, optimize databases, and enhance system performance.
+              My journey has taken me from monolithic transformations to cloud-native architectures, constantly pushing the limits of scalability and resilience.
+              I thrive on tackling complex backend challenges and optimizing systems for efficiency.
               </p>
             </motion.div>
           </div>
@@ -51,15 +49,15 @@ const About = () => {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-start">
                 <span className="text-purple-400 mr-2">•</span>
-                <span>Bachelor's in Computer Science - University of Technology (2018)</span>
+                <span>B.Tech in Computer Science and Engineering – Noida Institute of Engineering and Technology (2017-2021)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-purple-400 mr-2">•</span>
-                <span>Advanced React Certification - Frontend Masters (2020)</span>
+                <span>400+ coding problems solved on LeetCode & other platforms</span>
               </li>
               <li className="flex items-start">
                 <span className="text-purple-400 mr-2">•</span>
-                <span>Node.js Certified Developer - OpenJS Foundation (2021)</span>
+                <span>HackWithInfy 2020 – 2nd Runner Up</span>
               </li>
             </ul>
           </motion.div>
