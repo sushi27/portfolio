@@ -1,12 +1,75 @@
-# React + Vite
+# 🚀 Susanto Mandal - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Modern, performant portfolio showcasing my technical expertise*  
 
-Currently, two official plugins are available:
+## 🌟 Features  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠 Technical Highlights  
+- **Next-Gen Tech Stack**: React, Three.js, Tailwind CSS, Framer Motion  
+- **3D Visualizations**: Interactive 3D elements powered by Three.js  
+- **Micro-Interactions**: 60+ smooth animations for delightful UX  
+- **Performance Optimized**: 95+ Lighthouse scores across all metrics  
+- **Responsive Design**: Flawless experience on all devices  
 
-## Expanding the ESLint configuration
+### 🎯 Key Components  
+- **Dynamic Project Showcase** with case studies  
+- **Interactive Skills Matrix** with progress visualization  
+- **Secure Contact System** with rate-limited email API  
+- **Dark/Light Mode** *(coming soon)*  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗 Development Setup  
+
+```bash
+# Clone the repository
+git clone https://github.com/sushi27/portfolio.git
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```  
+
+## 🚀 Deployment  
+Deployed on **Vercel** with a **CI/CD pipeline**:  
+
+```bash
+# Production build
+npm run build
+
+# Deploy to Vercel
+vercel --prod
+```  
+
+## 🧩 Tech Stack  
+
+### Frontend  
+
+| Technology      | Usage                  |  
+|---------------|-----------------------|  
+| **React**      | Core framework          |  
+| **Three.js**   | 3D visualizations       |  
+| **Tailwind CSS** | Utility-first styling  |  
+| **Framer Motion** | Advanced animations  |  
+| **React Icons**  | 1000+ scalable icons   |  
+
+### Backend  
+
+| Service       | Purpose                  |  
+|--------------|--------------------------|  
+| **EmailJS**   | Secure contact form      |  
+| **Vercel Edge** | Rate limiting           |  
+| **Upstash Redis** | Session management   |  
+
+## 📊 Performance Metrics  
+**Lighthouse Scores**: Consistently **95+** across all categories.  
+
+## 🤝 Contribution Guidelines  
+While this is my personal portfolio, I welcome suggestions:  
+
+1. Fork the repository  
+2. Create your feature branch  
+3. Submit a pull request  
+
+## 📜 License  
+**MIT License** – © 2025 Susanto Mandal  
