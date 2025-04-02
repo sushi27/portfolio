@@ -1,5 +1,5 @@
 # 🚀 Susanto Mandal - Full Stack Developer Portfolio
-
+![Portfolio Screenshot](https://github.com/user-attachments/assets/27e3470c-4eea-4789-b3a3-d6ad202e2a2d)  
 *Modern, performant portfolio showcasing my technical expertise*  
 
 ## 🌟 Features  
@@ -8,13 +8,12 @@
 - **Next-Gen Tech Stack**: React, Three.js, Tailwind CSS, Framer Motion  
 - **3D Visualizations**: Interactive 3D elements powered by Three.js  
 - **Micro-Interactions**: 60+ smooth animations for delightful UX  
-- **Performance Optimized**: 95+ Lighthouse scores across all metrics  
 - **Responsive Design**: Flawless experience on all devices  
 
 ### 🎯 Key Components  
 - **Dynamic Project Showcase** with case studies  
 - **Interactive Skills Matrix** with progress visualization  
-- **Secure Contact System** with rate-limited email API  
+- **Secure Contact System** with rate-limited email API *(coming soon)* 
 - **Dark/Light Mode** *(coming soon)*  
 
 ## 🏗 Development Setup  
@@ -61,8 +60,6 @@ vercel --prod
 | **Vercel Edge** | Rate limiting           |  
 | **Upstash Redis** | Session management   |  
 
-## 📊 Performance Metrics  
-**Lighthouse Scores**: Consistently **95+** across all categories.  
 
 ## 🤝 Contribution Guidelines  
 While this is my personal portfolio, I welcome suggestions:  
