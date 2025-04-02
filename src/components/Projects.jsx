@@ -29,7 +29,7 @@ const projects = [
     "category": "frontend",
     "links": {
       "github": "https://github.com/sushi27/portfolio",
-      "demo": "http://localhost:5173"
+      "demo": "https://portfolio-susanto-mandals-projects.vercel.app/"
     }
   } 
 ];
