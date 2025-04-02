@@ -1,23 +1,25 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
-import { ThemeProvider } from "./themeContext";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <ThemeProvider>
-      <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-all">
+    <Router>
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
         <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
-    </ThemeProvider>
+    </Router>
   );
 }
 
