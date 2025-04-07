@@ -34,7 +34,7 @@ const Home = () => {
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-semibold shadow-lg hover:shadow-xl transition-all"
           >
-            <Link to="/projects" smooth={true} duration={500}>
+            <Link to="/projects" duration={500}>
               View My Work
             </Link>
           </motion.button>
